@@ -67,7 +67,9 @@ int main() {
                     }
                     // User input
                     cout << "Enter the new value: " << endl;
-                    cin >> new_value;
+                    cin >> input_string;
+                    // Convert String to Integer
+                    new_value = stoi(input_string);
                     // Calls function that makes the number change and returns the replaced number
                     int replaced_num = numChange(myarray, index, new_value);
                     // Prints the old and new value
@@ -75,16 +77,17 @@ int main() {
                 }
                 // Catch Out of range errors with array
                 catch (out_of_range& e) {
-                    cerr << e.what() << endl;
+                    cout << e.what() << endl;
                 }
                 // Catch type errors
                 catch (invalid_argument&) {
-                    cerr << "Invalid Input" << endl;
+                    cout << "Invalid Input" << endl;
+                    //abort();
                 }
         }
         // Add number to end of array
         else if (user_input == "3") {
-            cout << "What number would you like to add to the end of the array?: ";
+            cout << "What number would you like to add to the end of the array?: " << endl;
             // Variable declaration
             int new_value;
             string input_string;
@@ -101,12 +104,12 @@ int main() {
             }
             // Catch Type error
             catch (invalid_argument&) {
-                cerr << "Not a number" << endl;
+                cout << "Invalid Input" << endl;
             }
         }
         // Remove number from array using index
         else if (user_input == "4") {
-            cout << "What is the index of the number you'd like to remove?: ";
+            cout << "What is the index of the number you'd like to remove?: " << endl;
             int remove_num;
             // User input
             cin >> remove_num;
