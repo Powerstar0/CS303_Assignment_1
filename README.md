@@ -1,6 +1,6 @@
 # How to Run
 1) Open the code in your favorite IDE (This was built in CLION) and run main.cpp
-2) Choice any of the choices from the menu
+2) Choose any of the choices from the menu
 
 ![image](https://github.com/user-attachments/assets/7a6997c2-11ff-4626-9f8b-e17238344a37)
 
