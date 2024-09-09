@@ -33,5 +33,9 @@
 
 ![image](https://github.com/user-attachments/assets/5157722d-084e-4cba-a1af-7f59b7b03c2d)
 
+8) After each command the array will print to the screen
+
+<img width="1565" alt="Screenshot 2024-09-09 at 3 04 57 PM" src="https://github.com/user-attachments/assets/6470fed2-70b0-4474-8c27-7278e1849b2a">
+
 NOTE: Images were not all taken in one continous run
 
