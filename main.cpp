@@ -126,6 +126,11 @@ int main() {
         else {
             cout << "Invalid input, please try again \n";
         }
+        cout << "The array is: " << endl;
+        for (int i = 0; i < size; i++) {
+            cout << myarray[i] << " ";
+        }
+        cout << endl;
     }
     delete[] myarray;
     return 0;
